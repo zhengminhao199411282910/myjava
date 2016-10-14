@@ -8,9 +8,9 @@ public class ClassTest{
 		Scanner scan=new Scanner(System.in);
 		while((str=br.readLine())!=null){
 			System.out.println(str);
-			System.out.println("输入姓名");
+			System.out.println("输入姓名-----");
 			String name=scan.next();
-			System.out.println("输入年龄");
+			System.out.println("输入年龄---------");
 			int age=scan.nextInt();
 			Class[] types=new Class[]{String.class,int.class};
 			Object[] params=new Object[]{name,age};
